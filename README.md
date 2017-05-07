@@ -7,8 +7,8 @@ When using the .xlsm file (easier):
 - [x] Enable Microsoft scripting Runtime setting. When inside a module in Visual Basic, click on Tools -> References, and scroll down to Microsoft Scripting Runtime.
 
 ## Optional
-If you do not wish to use the .xlsm file you can implement the code yourself from the APICallers.cls file. Download the .cls file and click on file -> import file when inside Visual Basic.
+If you do not wish to use the .xlsm file you can implement the code yourself from the APICallers.cls file. Copy the contents of the .cls file and paste it into the Microsoft Excel Objects > Sheet(1) when inside Visual Basic. You still need to follow above steps for it to work.
 
-You also need the JsonConverter module for it to work. This can be retrieved [here](https://github.com/VBA-tools/VBA-JSON).
+In this case you also need the JsonConverter module for it to work. This can be retrieved [here](https://github.com/VBA-tools/VBA-JSON).
 
 

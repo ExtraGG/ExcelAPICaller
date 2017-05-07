@@ -1,17 +1,7 @@
-VERSION 1.0 CLASS
-BEGIN
-  MultiUse = -1  'True
-END
-Attribute VB_Name = "Blad9"
-Attribute VB_GlobalNameSpace = False
-Attribute VB_Creatable = False
-Attribute VB_PredeclaredId = True
-Attribute VB_Exposed = True
 'This subroutine will perform four subsequent API Calls. You need the JsonConverter module for this to work. This can be retrieved here: https://github.com/VBA-tools/VBA-JSON'
 
 'Bitcoin API call'
 Public Sub APICallers()
-Attribute APICallers.VB_ProcData.VB_Invoke_Func = "l\n14"
     Dim http As Object, BTC As Object, btcvalue As String
     
     Set http = CreateObject("MSXML2.XMLHTTP")
