@@ -1,3 +1,4 @@
+Attribute VB_Name = "ExcelAPIModule"
 'This subroutine will perform four subsequent API Calls. You need the JsonConverter module for this to work. This can be retrieved here: https://github.com/VBA-tools/VBA-JSON'
 
 'Bitcoin API call'
