@@ -3,8 +3,8 @@ This subroutine will perform four API Calls to get the value in € of the last 
 
 ## Requirements / First configuration
 You need to
-- [x] [Enable developer tab on the ribbon] (https://msdn.microsoft.com/nl-nl/library/bb608625.aspx)
-- [x] Enable Microsoft scripting Runtime setting. When inside a module in Visual Basic, click on Tools -> References, and scroll down to Microsoft Scripting Runtime)
+- [x] [Enable developer tab on the ribbon](https://msdn.microsoft.com/nl-nl/library/bb608625.aspx)
+- [x] Enable Microsoft scripting Runtime setting. When inside a module in Visual Basic, click on Tools -> References, and scroll down to Microsoft Scripting Runtime.
 
 ## Optional
 If you do not wish to use the .xlsm file you can implement the code yourself from APICallers.cls file.
