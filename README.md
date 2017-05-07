@@ -1,5 +1,5 @@
 ## Description
-This subroutine will perform four API Calls to get the value in € of the last trade that occurred at Kraken of Bitcoin, Ethereum, Ethereum classic and Litecoin in Microsoft Excel. These values are then passed to different cells in the sheet 'Cryptocurrency values'. It is easily extendable to include other cryptocurrencies or API Calls to other websites. You can easily link the macro to a shortcut by adding a shortcut at Developer tab -> Macro's -> Edit.
+This subroutine will perform four API Calls to get the value in € of the last trade that occurred at Kraken of Bitcoin, Ethereum, Ethereum classic and Litecoin in Microsoft Excel. These values are then passed to several cells in the sheet 'Cryptocurrency values'. It is easily extendable to include other cryptocurrencies or API Calls to other websites. You can also link the macro to a shortcut by adding a shortcut at Developer tab -> Macro's -> Edit.
 
 ## Requirements / First configuration
 When using the .xlsm file (easier):
