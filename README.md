@@ -7,7 +7,7 @@ You need the [developer tab](https://msdn.microsoft.com/nl-nl/library/bb608625.a
 #### Option 1:
 When using the .xlsm file:
 
-- [x] Enable Microsoft scripting Runtime setting. When inside a module in Visual Basic, click on Tools -> References, and scroll down to Microsoft Scripting Runtime.
+- [x] Enable Microsoft scripting Runtime reference. When inside a module in Visual Basic, click on Tools -> References, and scroll down to select Microsoft Scripting Runtime and press 'OK'.
 It should work now. Press Ctrl + L to refresh the values when inside your workbook.
 
 #### Option 2:
