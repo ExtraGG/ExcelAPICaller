@@ -13,7 +13,7 @@ Public Sub APICallers()
     
     btcvalue = BTC("result")("XXBTZEUR")("c")(1)
     
-    Sheets(1).Cells(2, 2).Value = (btcvalue)
+    Sheets(1).Cells(2, 2).Value = btcvalue
     
     'Ethereum api call'
     Dim ethvalue As String, ETH As Object
@@ -25,7 +25,7 @@ Public Sub APICallers()
     
     ethvalue = ETH("result")("XETHZEUR")("c")(1)
     
-    Sheets(1).Cells(4, 2).Value = (ethvalue)
+    Sheets(1).Cells(4, 2).Value = ethvalue
     
     'Ethereum classic api call'
     Dim etcvalue As String, ETC As Object
@@ -37,7 +37,7 @@ Public Sub APICallers()
     
     etcvalue = ETC("result")("XETCZEUR")("c")(1)
     
-    Sheets(1).Cells(6, 2).Value = (etcvalue)
+    Sheets(1).Cells(6, 2).Value = etcvalue
     
     'Litecoin api call'
     Dim ltcvalue As String, LTC As Object
@@ -49,6 +49,6 @@ Public Sub APICallers()
     
     ltcvalue = LTC("result")("XLTCZEUR")("c")(1)
     
-    Sheets(1).Cells(8, 2).Value = (ltcvalue)
+    Sheets(1).Cells(8, 2).Value = ltcvalue
 End Sub
 
